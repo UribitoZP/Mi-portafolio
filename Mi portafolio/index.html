@@ -5,55 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    animation: {
-                        'gradient': 'gradient 8s ease infinite',
-                        'fadeInUp': 'fadeInUp 1s ease forwards',
-                        'bounce-slow': 'bounce 3s infinite',
-                    },
-                    keyframes: {
-                        gradient: {
-                            '0%, 100%': {
-                                'background-size': '200% 200%',
-                                'background-position': 'left center'
-                            },
-                            '50%': {
-                                'background-size': '200% 200%',
-                                'background-position': 'right center'
-                            }
-                        },
-                        fadeInUp: {
-                            '0%': {
-                                opacity: '0',
-                                transform: 'translateY(30px)'
-                            },
-                            '100%': {
-                                opacity: '1',
-                                transform: 'translateY(0px)'
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        .animate-delay-300 { animation-delay: 0.3s; }
-        .animate-delay-600 { animation-delay: 0.6s; }
-        .animate-delay-900 { animation-delay: 0.9s; }
-        
-        .skill-bar {
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .skill-progress {
-            transition: width 2s ease-in-out;
-        }
-    </style>
+    <script src="config.js"></script>
 </head>
 <body class="bg-gray-50 text-gray-800">
     <!-- Header -->
@@ -383,7 +335,7 @@
                             </div>
                             <div>
                                 <p class="font-semibold text-gray-800">Email</p>
-                                <p class="text-gray-600">tu.email@ejemplo.com</p>
+                                <p class="text-gray-600">alfreduriberolong20@gmail.com</p>
                             </div>
                         </div>
                         
@@ -395,7 +347,7 @@
                             </div>
                             <div>
                                 <p class="font-semibold text-gray-800">Teléfono</p>
-                                <p class="text-gray-600">+57 300 123 4567</p>
+                                <p class="text-gray-600">+57 3016550082</p>
                             </div>
                         </div>
                         
@@ -408,7 +360,7 @@
                             </div>
                             <div>
                                 <p class="font-semibold text-gray-800">Ubicación</p>
-                                <p class="text-gray-600">Bogotá, Colombia</p>
+                                <p class="text-gray-600">Barranquilla, Colombia</p>
                             </div>
                         </div>
                     </div>
@@ -480,11 +432,9 @@
                 
                 <div class="border-t border-gray-800 pt-8">
                     <p class="text-gray-400">
-                        &copy; 2025 <span class="text-white font-semibold">[Tu Nombre]</span>. Todos los derechos reservados.
+                        &copy; 2025 <span class="text-white font-semibold">Alfred Uribe</span>. Todos los derechos reservados.
                     </p>
-                    <p class="text-gray-500 text-sm mt-2">
-                        Hecho con ❤️ y Tailwind CSS
-                    </p>
+
                 </div>
             </div>
         </div>
